@@ -1,20 +1,16 @@
-#include <stdio.h>
-#include "main.h"
+#include "Alx.h"
 
 /**
- * main - Entry point
- *
- * Return:1
+ * main - print Alx, followed by new line
+ * Return: 0
  */
+
 int main(void)
 {
-char text_printed[9] = "Holberton";
-int count;
+	_putchar('A');
+	_putchar('l');
+	_putchar('x');
+	_putchar('\n');
 
-for (count = 0; count < 9; count++)
-{
-_putchar(text_printed[count]);
-}
-_putchar('\n');
-return (0);
+	return (0);
 }
